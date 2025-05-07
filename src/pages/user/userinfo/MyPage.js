@@ -143,7 +143,7 @@ const MyPage = ( ) => {
               alert('프로필이 성공적으로 수정되었습니다.');
               setUser(newUser);
               setIsEditing(false);
-              window.location.href = '/MyPage';
+              window.location.href = '/mypage';
           }
       } catch (error) {
           console.error('프로필 수정 중 오류가 발생했습니다:', error);
@@ -234,7 +234,7 @@ const MyPage = ( ) => {
               // 비밀번호 변경 후 필드 초기화
               setNewUser({ ...newUser, exPassword: '', newPassword: '' }); // 변경된 필드명
               setConfirmPassword('');
-              window.location.href = '/MyPage';
+              window.location.href = '/mypage';
           }
       } catch (error) {
           console.error('비밀번호 변경 중 오류가 발생했습니다:', error);
@@ -258,7 +258,7 @@ const MyPage = ( ) => {
 
               if (response.status === 204) {
                   alert('기술 제공이 성공적으로 탈퇴되었습니다.');
-                  window.location.href = '/MyPage';
+                  window.location.href = '/mypage';
               }
           } catch (error) {
               console.error('기술 제공 탈퇴 중 오류가 발생했습니다:', error);

@@ -63,13 +63,13 @@ const App = () => {
                             element={<AccessDeniedPage/>}
                         ></Route>{" "}
                         {/*관리자 권한이 없을 때의 페이지*/}
-                        <Route path="/SignUp" element={<SignUp/>}/>{" "}
+                        <Route path="/signUp" element={<SignUp/>}/>{" "}
                         {/* 회원 가입 페이지 */}
-                        <Route path="/Login" element={<Login/>}/> {/* 로그인 페이지 */}
+                        <Route path="/login" element={<Login/>}/> {/* 로그인 페이지 */}
                         <Route path="/auth" element={<AuthHandler/>}/>{" "}
                         {/* 구글 Auth 로그인 */}
                         <Route
-                            path="/MyPage"
+                            path="/mypage"
                             element={
                                 <ProtectedRoute>
                                     <MyPage/>
