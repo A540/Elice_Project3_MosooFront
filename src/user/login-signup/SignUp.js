@@ -33,7 +33,8 @@ const SignUp = () => {
                 email,
                 fullName,
                 password,
-            });
+            },
+                { withCredentials: true });
 
             if (response.status === 200) {
                 alert('회원가입 성공!');
