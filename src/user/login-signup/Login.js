@@ -19,7 +19,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/auth/login`, { email, password });
+            const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/auth/login`, { email, password }, { withCredentials: true });
 
             if (response.status === 200) {
                 // 로그인 성공 시 처리 (예: 토큰 저장, 리다이렉트)
