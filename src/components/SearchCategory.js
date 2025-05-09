@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Step1 from "../pages/category/components/FirstCategory";
-import Step2 from "../pages/category/components/SecondCategory";
-import Step3 from "../pages/category/components/ThirdCategory";
+import Step1 from "../category/components/FirstCategory";
+import Step2 from "../category/components/SecondCategory";
+import Step3 from "../category/components/ThirdCategory";
 import "./SearchCategory.css";
 
 const SearchCategory = ({ onClose, onSelectCategory }) => {

@@ -16,7 +16,7 @@ import {
     AccessDeniedPage,
     ProtectedRoute,
 } from "./components";
-import {ChatRoomList, ChatRoom} from "./pages/chatting";
+import {ChatRoomList, ChatRoom} from "./chatting";
 import {
     CreatePost,
     CreateReview,
@@ -24,31 +24,31 @@ import {
     PostDetail,
     RequestPostList,
     OfferPostFilterList,
-} from "./pages/post";
-import {MainPage} from "./pages";
+} from "./post";
+import {MainPage} from "./mainpage";
 import {
     CategoryList,
     CreateFirstCategory,
     CreateSubCategory,
     UpdateCategory,
-} from "./pages/category";
+} from "./category";
 
-import SignUp from "./pages/user/login-signup/SignUp";
-import Login from "./pages/user/login-signup/Login";
-import  AuthHandler from "./pages/user/login-signup/AuthHandler";
+import SignUp from "./user/login-signup/SignUp";
+import Login from "./user/login-signup/Login";
+import  AuthHandler from "./user/login-signup/AuthHandler";
 
-import MyPage from "./pages/user/userinfo/MyPage";
-import TechProvide from "./pages/user/userinfo/TechProvide";
-import TechProvideEdit from "./pages/user/userinfo/TechProvideEdit";
+import MyPage from "./user/userinfo/MyPage";
+import TechProvide from "./user/userinfo/TechProvide";
+import TechProvideEdit from "./user/userinfo/TechProvideEdit";
 
-import {Payment} from "./pages/payment";
-import PaymentComplete from "./pages/payment/PaymentComplete";
-import UsageList from "./pages/usage/UsageList";
-import GoogleTokenCheck from "./pages/user/login-signup/GoogleTokenCheck";
-import AdminDeleteUserList from "./pages/admin/AdminDeleteUserList";
-import MyPosts from "./pages/post/mypage/MyPosts";
-import MyReviews from "./pages/post/mypage/MyReviews";
-import {MyBids} from "./pages/post/mypage";
+import {Payment} from "./payment";
+import PaymentComplete from "./payment/PaymentComplete";
+import UsageList from "./usage/UsageList";
+import GoogleTokenCheck from "./user/login-signup/GoogleTokenCheck";
+import AdminDeleteUserList from "./admin/AdminDeleteUserList";
+import MyPosts from "./post/mypage/MyPosts";
+import MyReviews from "./post/mypage/MyReviews";
+import {MyBids} from "./post/mypage";
 
 const App = () => {
     return (

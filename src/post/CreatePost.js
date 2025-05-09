@@ -7,7 +7,7 @@ import {
     fetchSubCategoriesLevel2,
     createPost,
 } from './CreatePostApi';
-import {isGosu} from "../../components/isGosu";
+import {isGosu} from "../components/isGosu";
 
 const CreatePost = () => {
     const [title, setTitle] = useState('');

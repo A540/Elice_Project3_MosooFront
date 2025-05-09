@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import "./UsageList.css";
-import "../../components/button.css";
+import "../components/button.css";
 import axios from "axios";
 
 const PaymentComplete = () => {

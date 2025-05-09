@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import Step1 from "./Address";
-import Step2 from "../pages/category/components/FirstCategory";
-import Step3 from "../pages/category/components/SecondCategory";
-import Step4 from "../pages/category/components/ThirdCategory";
+import Step2 from "../category/components/FirstCategory";
+import Step3 from "../category/components/SecondCategory";
+import Step4 from "../category/components/ThirdCategory";
 import "./SearchRequestPosts.css";
 
 const SearchRequestPosts = ({onClose}) => {

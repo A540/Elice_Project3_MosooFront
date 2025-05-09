@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { isAdmin } from '../../../components/IsAdmin'; // isAdmin 함수 import
+import { isAdmin } from '../../components/IsAdmin'; // isAdmin 함수 import
 import './MyPage.css';
 import UsageList from "../../usage/UsageList";
 import {ChatRoomList} from "../../chatting";
@@ -9,7 +9,7 @@ import AdminUserLIst from "../../admin/AdminUserLIst";
 import {CategoryList} from "../../category";
 import {MyBids, MyPosts} from "../../post/mypage";
 import MyReviews from "../../post/mypage/MyReviews"; // CSS 파일에서 아이콘 스타일 추가
-import AddressModal from '../../../components/AddressModal';
+import AddressModal from '../../components/AddressModal';
 import TechProvideList from "./TechProvideList";
 import TechProvideEdit from "./TechProvideEdit";
 import AllPostList from "../../post/admin/AllPostList";

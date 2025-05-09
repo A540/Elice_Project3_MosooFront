@@ -13,8 +13,8 @@ import {
 } from './Api';
 import {Modal, Button, Carousel} from 'react-bootstrap';
 import './StarRating.css';
-import {isGosu} from "../../components/isGosu";
-import {getJwtSubject} from "../../components/getJwtSubject"; // 별표 스타일 추가
+import {isGosu} from "../components/isGosu";
+import {getJwtSubject} from "../components/getJwtSubject"; // 별표 스타일 추가
 
 const PostDetail = () => {
     const {id} = useParams();

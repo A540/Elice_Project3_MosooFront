@@ -4,11 +4,11 @@ import Stomp from 'stompjs';
 import axios from 'axios';
 import {useParams} from 'react-router-dom';
 import './ChatRoom.css';
-import '../../components/button.css';
+import '../components/button.css';
 import PostInfo from "./PostInfo";
 import OpponentInfo from "./OpponentInfo";
 import ChatSettingModal from "./ChatSettingModal";
-import {getJwtSubject} from "../../components/getJwtSubject";
+import {getJwtSubject} from "../components/getJwtSubject";
 
 const ChatRoom = () => {
     const {chatRoomId} = useParams();

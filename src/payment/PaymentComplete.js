@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 import "./PaymentComplete.css";
-import "../../components/button.css";
+import "../components/button.css";
 
 const PaymentComplete = () => {
   const location = useLocation();
